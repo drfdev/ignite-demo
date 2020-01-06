@@ -1,6 +1,6 @@
 ### Ignite demo
 
-java: 13
+java: 1.8
 
 ignite: 2.7
 
