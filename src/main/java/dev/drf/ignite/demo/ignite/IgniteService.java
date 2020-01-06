@@ -35,18 +35,22 @@ public class IgniteService implements AutoCloseable {
     }
 
     public void put(MyEntity value) {
+        log.debug("put {}", value);
         cache.put(value.getId(), value);
     }
 
     public MyEntity get(long id) {
+        log.debug("get {}", id);
         return cache.get(id);
     }
 
     public boolean remove(long id) {
+        log.debug("remove {}", id);
         return cache.remove(id);
     }
 
     public void clear() {
+        log.debug("clear");
         cache.clear();
     }
 
