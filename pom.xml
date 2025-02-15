@@ -19,7 +19,7 @@
 
         <!-- deps -->
         <spring.version>6.1.14</spring.version>
-        <ignite.version>2.8.1</ignite.version>
+        <ignite.version>2.17.0</ignite.version>
 
         <!-- tests -->
         <junit.version>4.13.1</junit.version>
